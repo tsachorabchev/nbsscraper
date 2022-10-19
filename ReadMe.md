@@ -31,9 +31,9 @@ $ scrapy crawl nbsspider -a p=20
 # API
 ## Instructions
 To start the API server use
-
-uvicorn main:app --reload
-
+```
+$ uvicorn main:app --reload
+```
 ## Datapoints
 
 | Datapoint                | HTTP Method | Description                                   |
